@@ -1,0 +1,3 @@
+@echo off
+REM 安卓群控快捷入口 — 用法: adbctl wake / adbctl sleep / adbctl open calc ...
+python "%~dp0adbctl.py" %*
